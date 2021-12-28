@@ -1,0 +1,26 @@
+{
+    "name": "sovannrach/profile",
+    "description": "This is a profile page",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sovannrach",
+            "email": "sovannrach@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Sovannrach\\Profile\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sovannrach\\Profile\\ProfileServiceProvider"
+            ]
+        }
+    }
+}
